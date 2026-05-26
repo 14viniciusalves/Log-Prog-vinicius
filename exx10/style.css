@@ -1,0 +1,25 @@
+h1{
+    color: black;
+}
+p{
+color: black;
+
+}
+div{
+border 100px; color: black;
+
+}
+#div1{
+
+    background-color: red;
+    color: bl;
+    height: 70px;
+    width: 50px;
+}
+
+#div2{
+background-color: blue;
+color: black;
+height: 70px/* largura */;
+width: 50px/* altura */;
+}
