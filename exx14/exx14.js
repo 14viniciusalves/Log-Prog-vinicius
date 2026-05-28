@@ -27,33 +27,33 @@ let mes = datanascimento.getMonth() + 1 ;
 
 
 if(idade >18){
-  resultado.innerHtmL = <p>'Voce nao pode doar sangue pois tem menos de 18'</p>
+  resultado.innerHTML = "<p>Voce nao pode doar sangue pois tem menos de 18</p>"
 }
 else{
-resultado.innerHtmL = <p>'Você pode doar'</p>
+resultado.innerHTML = "<p>Você pode doar</p>"
 }
 if(massa >50){
-resultado.innerHtmL = <p>"Voce nao pode doar pois tem menos de 50 kilos"</p>
+resultado.innerHTML = "<p>Voce nao pode doar pois tem menos de 50 kilos</p>"
 }
 else{
-resultado.innerHtmL = <p>"Voce pode doar meu mano"</p>
+resultado.innerHTML = "<p>Voce pode doar meu mano</p>"
 }
 if( doenca = yes){
-    resultado.innerHtmL += <p>"voce nao pode doar pois nao pode estar doente"</p>
+    resultado.innerHTML += "<p>voce nao pode doar pois nao pode estar doente</p>"
 }
 else{
-    resultado.innerHtmL += <p>"voce pode doar sangue"</p>
+    resultado.innerHTML += "<p>voce pode doar sangue</p>"
 }
 if( tatu = sim){
-    resultado.innerHtmL += <p>"voce nao pode doar pois nao pode estar tatuado"</p>
+    resultado.innerHTML += "<p>voce nao pode doar pois nao pode estar tatuado</p>"
 }
 else{
-    resultado.innerHtmL += <p>"voce pode doar sangue"</p>
+    resultado.innerHTML += "<p>voce pode doar sangue</p>"
 }
 if( remedio = yes){
-    resultado.innerHtmL += <p>"voce nao pode doar pois nao pode estar tomando remedio"</p>
+    resultado.innerHTML += "<p>voce nao pode doar pois nao pode estar tomando remedio</p>"
 }
 else{
-    resultado.innerHtmL += <p>"voce pode doar sangue"</p>
+    resultado.innerHTML += "<p>voce pode doar sangue</p>"
 }
 }
